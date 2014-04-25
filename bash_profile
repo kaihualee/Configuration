@@ -34,3 +34,7 @@ export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 export M2_HOME=/usr/apache-maven
 export PATH=$PATH:$M2_HOME/bin
+alias gs="git status"
+alias gc="git checkout"
+alias glog="git log"
+alias gd="git diff"

@@ -28,15 +28,16 @@ if [ -d /etc/profile.d ]; then
   done
   unset i
 fi
-JAVA_HOME=/usr/java　
-export JRE_HOME=/usr/java/jre
-export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
-export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
-export M2_HOME=/usr/apache-maven
-export PATH=$PATH:$M2_HOME/bin
+
 alias gs="git status"
 alias gc="git checkout"
 alias glog="git log"
 alias gd="git diff"
 alias gclone="git clone"
 alias gadd="git add"
+git config --global user.name "wawadimu"
+git config --global user.email "wawadimu@gmail.com"
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global core.editor "vim"

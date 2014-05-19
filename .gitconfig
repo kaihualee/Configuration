@@ -1,0 +1,21 @@
+[user]
+	name = wawadimu
+	email = wawadimu@gmail.com
+[core]
+	editor = nano
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+	df = diff
+	pushall = push --recurse-submodules=on-demand
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color]
+	branch = auto
+	log = auto
+	status = auto
+	diff = auto

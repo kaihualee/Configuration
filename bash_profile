@@ -29,15 +29,3 @@ if [ -d /etc/profile.d ]; then
   unset i
 fi
 
-alias gs="git status"
-alias gc="git checkout"
-alias glog="git log"
-alias gd="git diff"
-alias gclone="git clone"
-alias gadd="git add"
-git config --global user.name "wawadimu"
-git config --global user.email "wawadimu@gmail.com"
-git config --global color.diff auto
-git config --global color.status auto
-git config --global color.branch auto
-git config --global core.editor "vim"

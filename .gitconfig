@@ -3,6 +3,12 @@
 	email = wawadimu@gmail.com
 [core]
 	editor = nano
+	
+	#On unix-like systems
+	#autocrlf input
+	
+	#on Windows System
+	#autocrlf true
 [alias]
 	ci = commit
 	co = checkout

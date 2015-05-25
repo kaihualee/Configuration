@@ -17,11 +17,10 @@
 	unstage = reset HEAD --
 	last = log -1 HEAD
 	visual = !gitk
-	df = diff
-	pushall = push --recurse-submodules=on-demand
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [color]
 	branch = auto
 	log = auto
 	status = auto
 	diff = auto
+[merge]
+        tool = kdiff3
